@@ -1,0 +1,11 @@
+if you did everthing including make.conf and grub and fstab and kernel configuration is default(or as in gentoo handbook)
+as it was described in gentoo_install repo then your steps are
+
+https://wiki.gentoo.org/wiki/Xorg/Configuration
+
+or
+
+emerge --ask x11-base/xorg-server
+env-update
+source /etc/profile
+startx
