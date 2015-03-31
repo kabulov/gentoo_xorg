@@ -1,5 +1,8 @@
 emerge twm xterm xclock -1
 
+added vboxvideo to /etc/conf.d/modules as modules="vboxvideo".
+rebuilt xf86-video-virtualbox and xorg-server, xorg worked.
+
 make sure you have the driver 'virtualbox' in your make.conf file for your video card. 
 try to install Xorg. 
 issues : look at the /etc/portage/package.use file. 
