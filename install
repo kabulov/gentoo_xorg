@@ -1,3 +1,14 @@
+emerge twm xterm xclock -1
+
+make sure you have the driver 'virtualbox' in your make.conf file for your video card. 
+try to install Xorg. 
+issues : look at the /etc/portage/package.use file. 
+you need to add 'x11-base/xorg-server udev' to it. 
+install again. you might need more dependencies.
+try and start it with a 'startx' command. 
+take a look at the /var/log/Xorg.0.log file
+install things it is complaining about
+
 if you did everthing including make.conf and grub and fstab and kernel configuration is default(or as in gentoo handbook)
 as it was described in gentoo_install repo then your steps are
 
