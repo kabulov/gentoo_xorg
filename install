@@ -23,3 +23,10 @@ emerge --ask x11-base/xorg-server
 env-update
 source /etc/profile
 startx
+
+places to go:
+- /etc/X11/xinit/xinitrc
+- /etc/env.d/90xdg-data-base
+- /usr/lib64/xorg/modules/
+- /var/log/Xorg.0.log
+- /usr/lib64/modules
